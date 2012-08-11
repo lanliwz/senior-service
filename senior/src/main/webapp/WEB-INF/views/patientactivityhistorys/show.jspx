@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_upuedu_hc_senior_model_PatientActivityHistory" object="${patientactivityhistory}" path="/patientactivityhistorys" z="MmVejyBvbFhOI19rWxKDnnWuo58=">
+        <field:display field="memberId" id="s_com_upuedu_hc_senior_model_PatientActivityHistory_memberId" object="${patientactivityhistory}" z="M472wu+CrPmOCEAG1yuYyunGYxI="/>
+        <field:display field="location" id="s_com_upuedu_hc_senior_model_PatientActivityHistory_location" object="${patientactivityhistory}" z="q010i7sRevn/HWyCr6LvYCJcAbM="/>
+        <field:display date="true" dateTimePattern="${patientActivityHistory_recordtime_date_format}" field="recordTime" id="s_com_upuedu_hc_senior_model_PatientActivityHistory_recordTime" object="${patientactivityhistory}" z="eMm41sGzEeWAhA55T6XxGGXdKsw="/>
+        <field:display field="mediaLinks" id="s_com_upuedu_hc_senior_model_PatientActivityHistory_mediaLinks" object="${patientactivityhistory}" z="PLtTSDWgu3GGlitmRNzBEkFjaHA="/>
+        <field:display field="mimeType" id="s_com_upuedu_hc_senior_model_PatientActivityHistory_mimeType" object="${patientactivityhistory}" z="39erCAFjpcUHKDwFua1Zpvxd45w="/>
+        <field:display field="metaData" id="s_com_upuedu_hc_senior_model_PatientActivityHistory_metaData" object="${patientactivityhistory}" z="uASiwAxf+EUBrTkGeOQTU/EjdHg="/>
+    </page:show>
+</div>

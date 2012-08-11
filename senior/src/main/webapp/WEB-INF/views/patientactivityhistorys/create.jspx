@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_upuedu_hc_senior_model_PatientActivityHistory" modelAttribute="patientActivityHistory" path="/patientactivityhistorys" render="${empty dependencies}" z="Lb0nIU2Kt7mOFcl2jboHFECfNaA=">
+        <field:select field="memberId" id="c_com_upuedu_hc_senior_model_PatientActivityHistory_memberId" itemValue="id" items="${members}" path="/members" z="mpT7ySmvoUQY4qjJmGoypCHIxRM="/>
+        <field:input field="location" id="c_com_upuedu_hc_senior_model_PatientActivityHistory_location" z="5iCVIWSsvkPtcAjfx0GEOauqR6I="/>
+        <field:datetime dateTimePattern="${patientActivityHistory_recordtime_date_format}" field="recordTime" id="c_com_upuedu_hc_senior_model_PatientActivityHistory_recordTime" z="r22t6K9M/TvYQ18F1ammOE5LTbM="/>
+        <field:input field="mediaLinks" id="c_com_upuedu_hc_senior_model_PatientActivityHistory_mediaLinks" z="R/kEX4Ui/ThYIkOF7KCShOvbJB0="/>
+        <field:input field="mimeType" id="c_com_upuedu_hc_senior_model_PatientActivityHistory_mimeType" z="VdZYPlIkUKDWZZ3GuEVqxRIRAS8="/>
+        <field:input field="metaData" id="c_com_upuedu_hc_senior_model_PatientActivityHistory_metaData" z="7pB4XpjSFEpMGxchLqF4FNWNZs0="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_upuedu_hc_senior_model_PatientActivityHistory" render="${not empty dependencies}" z="B/t90LdbHj93dtoK+TVKMfsYl2w="/>
+</div>

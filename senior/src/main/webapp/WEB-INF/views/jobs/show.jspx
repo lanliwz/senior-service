@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_upuedu_hc_senior_model_Job" object="${job}" path="/jobs" z="r1AziFsFmakk3T5XQhSm5dZwW0A=">
+        <field:display field="memberId" id="s_com_upuedu_hc_senior_model_Job_memberId" object="${job}" z="KWMIoudLmr4Dh3Q+JQCf8F12s0s="/>
+        <field:display field="jobDescription" id="s_com_upuedu_hc_senior_model_Job_jobDescription" object="${job}" z="Sy17iaiJUug14wpZIqJuUY2LU6g="/>
+        <field:display field="jobQua1ityRating" id="s_com_upuedu_hc_senior_model_Job_jobQua1ityRating" object="${job}" z="8EqZ9QjYYE0kB795ET0OA/bCnIo="/>
+        <field:display field="comment" id="s_com_upuedu_hc_senior_model_Job_comment" object="${job}" z="gYEU+aB+zmLrdk5Ljvzgd0Ip09o="/>
+        <field:display field="ratePerHour" id="s_com_upuedu_hc_senior_model_Job_ratePerHour" object="${job}" z="10SIDfxN4wNMbQl5aoAUodnXaUM="/>
+        <field:display field="location" id="s_com_upuedu_hc_senior_model_Job_location" object="${job}" z="JHgWt4mp11m708n44ui6V44hor8="/>
+        <field:display date="true" dateTimePattern="${job_starttime_date_format}" field="startTime" id="s_com_upuedu_hc_senior_model_Job_startTime" object="${job}" z="4QA2Xec+BwEduVx9zYu9dX8qGE4="/>
+        <field:display date="true" dateTimePattern="${job_endtime_date_format}" field="endTime" id="s_com_upuedu_hc_senior_model_Job_endTime" object="${job}" z="b2Bu5iXbXvxs3MLH/jbkTi02yBo="/>
+        <field:display field="status" id="s_com_upuedu_hc_senior_model_Job_status" object="${job}" z="e12I7nu9YE+N0fAYBrO/A58iKK0="/>
+    </page:show>
+</div>

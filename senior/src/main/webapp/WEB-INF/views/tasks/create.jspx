@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_upuedu_hc_senior_model_Task" modelAttribute="task" path="/tasks" render="${empty dependencies}" z="ZOJdbrWjpouIjQ2p7Obq7DAPt5Y=">
+        <field:select field="jobId" id="c_com_upuedu_hc_senior_model_Task_jobId" itemValue="id" items="${jobs}" path="/jobs" z="2gaBIF3FaTGtdaKAIm1CqbQACBw="/>
+        <field:select field="workerId" id="c_com_upuedu_hc_senior_model_Task_workerId" itemValue="id" items="${members}" path="/members" z="Ef924TeNUg30GkP8Fc6nMPKJisk="/>
+        <field:input field="patientId" id="c_com_upuedu_hc_senior_model_Task_patientId" validationMessageCode="field_invalid_integer" z="92JSc/m+IS9dOXbBOmwZECywcrw="/>
+        <field:input field="location" id="c_com_upuedu_hc_senior_model_Task_location" z="FnK8qzlGqNUBW6vhSxNVXjqlxzw="/>
+        <field:datetime dateTimePattern="${task_checkintime_date_format}" field="checkinTime" id="c_com_upuedu_hc_senior_model_Task_checkinTime" z="iL3eOwq6Rx3WjYLCHWbPJEiAvKM="/>
+        <field:datetime dateTimePattern="${task_checkouttime_date_format}" field="checkoutTime" id="c_com_upuedu_hc_senior_model_Task_checkoutTime" z="saER4v/2wCtQp/JJs+4w0LeOwXg="/>
+        <field:input field="evidenceMediaLinks" id="c_com_upuedu_hc_senior_model_Task_evidenceMediaLinks" z="x64iL7IFZqnd1+HqlT1PEV0LAlw="/>
+        <field:input field="signatureLinks" id="c_com_upuedu_hc_senior_model_Task_signatureLinks" z="XP3x/ajXZTY6wvkAUU7dUF2UxhY="/>
+        <field:input field="comment" id="c_com_upuedu_hc_senior_model_Task_comment" z="0AdI19C7TTzpB0WjraLv4vLjEd0="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_upuedu_hc_senior_model_Task" render="${not empty dependencies}" z="c5KsvU6+Su3ncVdh0YTF6h1URZg="/>
+</div>

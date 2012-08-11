@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_upuedu_hc_senior_model_Task" items="${tasks}" z="mdLDhfXA5edq5ym4TnKhY3aTzBE=">
+        <table:table data="${tasks}" id="l_com_upuedu_hc_senior_model_Task" path="/tasks" z="cU9JwXrHh1S7/GgV85Jb88YpkVU=">
+            <table:column id="c_com_upuedu_hc_senior_model_Task_jobId" property="jobId" z="CvOCL4q+SzY5uGn68BZazZTDytw="/>
+            <table:column id="c_com_upuedu_hc_senior_model_Task_workerId" property="workerId" z="K9kidT50/GsHq/e/sy733rBaElE="/>
+            <table:column id="c_com_upuedu_hc_senior_model_Task_patientId" property="patientId" z="5nROnGZqw+s+u7zhGZo9ispM554="/>
+            <table:column id="c_com_upuedu_hc_senior_model_Task_location" property="location" z="Xciwf0WU2D7qdTXagD7tKhCtpA4="/>
+            <table:column date="true" dateTimePattern="${task_checkintime_date_format}" id="c_com_upuedu_hc_senior_model_Task_checkinTime" property="checkinTime" z="fAJHwcv7md5yQneUTms4Qas4YLs="/>
+            <table:column date="true" dateTimePattern="${task_checkouttime_date_format}" id="c_com_upuedu_hc_senior_model_Task_checkoutTime" property="checkoutTime" z="FKOsYMBQ+E8eV6lcVM3lgob9Uxk="/>
+        </table:table>
+    </page:list>
+</div>

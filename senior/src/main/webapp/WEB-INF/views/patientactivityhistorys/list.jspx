@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_upuedu_hc_senior_model_PatientActivityHistory" items="${patientactivityhistorys}" z="KseV5xbUvMdFEPVS3i6eTH13NRE=">
+        <table:table data="${patientactivityhistorys}" id="l_com_upuedu_hc_senior_model_PatientActivityHistory" path="/patientactivityhistorys" z="3g8/GHIQtphO9tW3oFABaEouq7k=">
+            <table:column id="c_com_upuedu_hc_senior_model_PatientActivityHistory_memberId" property="memberId" z="dKsmsHse1/jc9KzRKMtPIcQLcQA="/>
+            <table:column id="c_com_upuedu_hc_senior_model_PatientActivityHistory_location" property="location" z="s/p0jxYEqHCysw9MDgZ6xkOCtwA="/>
+            <table:column date="true" dateTimePattern="${patientActivityHistory_recordtime_date_format}" id="c_com_upuedu_hc_senior_model_PatientActivityHistory_recordTime" property="recordTime" z="hmt6hpSQuf6VH2RooNFjs82Tj2s="/>
+            <table:column id="c_com_upuedu_hc_senior_model_PatientActivityHistory_mediaLinks" property="mediaLinks" z="1VZdfrUoBRWwMDy/yvu+Ai59Ddw="/>
+            <table:column id="c_com_upuedu_hc_senior_model_PatientActivityHistory_mimeType" property="mimeType" z="J4sMTprPS8LqPUqRsHlFCk9Q/pQ="/>
+            <table:column id="c_com_upuedu_hc_senior_model_PatientActivityHistory_metaData" property="metaData" z="OFd6xd9cU0AplpquL90JuXyU3Cs="/>
+        </table:table>
+    </page:list>
+</div>

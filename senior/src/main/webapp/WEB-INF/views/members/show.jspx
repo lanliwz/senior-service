@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_upuedu_hc_senior_model_Member" object="${member}" path="/members" z="SKlI4NBMAjA4XVKP7cWrkVW/IBQ=">
+        <field:display field="firstName" id="s_com_upuedu_hc_senior_model_Member_firstName" object="${member}" z="1+Ruo4yJDgdURanj+2kCHHgMZ3I="/>
+        <field:display field="lastName" id="s_com_upuedu_hc_senior_model_Member_lastName" object="${member}" z="HNvrQ8MtNMCbgep8+N0m1SQ8Lys="/>
+        <field:display date="true" dateTimePattern="${member_dateofbirth_date_format}" field="dateOfBirth" id="s_com_upuedu_hc_senior_model_Member_dateOfBirth" object="${member}" z="8dlkiHk5/vzKtPwfxPNkAc/nB1Q="/>
+        <field:display field="type" id="s_com_upuedu_hc_senior_model_Member_type" object="${member}" z="6avlyymssB1PIPEwhsjO1Vfy0cI="/>
+        <field:display field="primaryEmail" id="s_com_upuedu_hc_senior_model_Member_primaryEmail" object="${member}" z="EQ8FhMpM158l3LSe6+bTMNyPaec="/>
+        <field:display field="street" id="s_com_upuedu_hc_senior_model_Member_street" object="${member}" z="lhIDyeIRyiB+Psedo5StCdm98QU="/>
+        <field:display field="city" id="s_com_upuedu_hc_senior_model_Member_city" object="${member}" z="wlWy+n0d+oFuTVbzuXGMIXj4zEI="/>
+        <field:display field="state" id="s_com_upuedu_hc_senior_model_Member_state" object="${member}" z="MbRMMKOIwVBp9YPAUcJzUh+7RUE="/>
+        <field:display field="zipCode" id="s_com_upuedu_hc_senior_model_Member_zipCode" object="${member}" z="Rhb7/0T/0WhI9cOp2r65x7ri8is="/>
+        <field:display field="primaryPhone" id="s_com_upuedu_hc_senior_model_Member_primaryPhone" object="${member}" z="5gSkKDNXIVVUT+oybRXau7dIQmE="/>
+        <field:display date="true" dateTimePattern="${member_effectivedate_date_format}" field="effectiveDate" id="s_com_upuedu_hc_senior_model_Member_effectiveDate" object="${member}" z="9ZtwROrCK0JU5U+DgVqPHa33F/0="/>
+        <field:display date="true" dateTimePattern="${member_terminationdate_date_format}" field="terminationDate" id="s_com_upuedu_hc_senior_model_Member_terminationDate" object="${member}" z="+pzhF1/r8kh7rggHK3LBux2Bniw="/>
+        <field:display date="true" dateTimePattern="${member_modifieddate_date_format}" field="modifiedDate" id="s_com_upuedu_hc_senior_model_Member_modifiedDate" object="${member}" z="L6AmhBIeFUhywmX68BsrApZKRTo="/>
+    </page:show>
+</div>

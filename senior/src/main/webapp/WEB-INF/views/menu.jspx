@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_patientactivityhistory" z="cF5CyIEQH+p2Dp/aO7XwOv0BO5c=">
+            <menu:item id="i_patientactivityhistory_new" messageCode="global_menu_new" url="/patientactivityhistorys?form" z="c3LTH9ILB5XtXgkaKubcqpXwRI0="/>
+            <menu:item id="i_patientactivityhistory_list" messageCode="global_menu_list" url="/patientactivityhistorys?page=1&amp;size=${empty param.size ? 10 : param.size}" z="24SGQOrPvlfsmS99W3y5LPerKpU="/>
+        </menu:category>
+        <menu:category id="c_task" z="5/YEXemVsbl4iFvHS/UosIk5vGA=">
+            <menu:item id="i_task_new" messageCode="global_menu_new" url="/tasks?form" z="YotbILlsjTB2PtR5PNSnTnvYdJ4="/>
+            <menu:item id="i_task_list" messageCode="global_menu_list" url="/tasks?page=1&amp;size=${empty param.size ? 10 : param.size}" z="IzVMulpv8+zgMUzz/aHI/gQB7NM="/>
+        </menu:category>
+        <menu:category id="c_member" z="E+l0UJyAnYHqY99+mAi/zjydQBs=">
+            <menu:item id="i_member_new" messageCode="global_menu_new" url="/members?form" z="eOceqY99kw2M1hVeogWbuGZSDpo="/>
+            <menu:item id="i_member_list" messageCode="global_menu_list" url="/members?page=1&amp;size=${empty param.size ? 10 : param.size}" z="YzlE/c2rolKgFE3ArBEPFRisy98="/>
+        </menu:category>
+        <menu:category id="c_job" z="Spq9e4Ex4B3IMcYI5WfoQsLFC30=">
+            <menu:item id="i_job_new" messageCode="global_menu_new" url="/jobs?form" z="LPLNOdNVR7SU3S6Mm86Cya2uODg="/>
+            <menu:item id="i_job_list" messageCode="global_menu_list" url="/jobs?page=1&amp;size=${empty param.size ? 10 : param.size}" z="40TPkqDKrJpvrpVeIfIWHa+/lZU="/>
+        </menu:category>
+        <menu:category id="c_location" z="RvMgx8apsPylYygCQ4tMBVfulVw=">
+            <menu:item id="i_location_new" messageCode="global_menu_new" url="/locations?form" z="sW8KSnwNnd9wjssI0lLV1kzOguk="/>
+            <menu:item id="i_location_list" messageCode="global_menu_list" url="/locations?page=1&amp;size=${empty param.size ? 10 : param.size}" z="VdKLEljpeTLil2W6A3GdWmSBzXI="/>
+        </menu:category>
+        <menu:category id="c_workerspecialty" z="OqzSuq5mxPqxry9DOSLuMRzbC8w=">
+            <menu:item id="i_workerspecialty_new" messageCode="global_menu_new" url="/workerspecialtys?form" z="C04aAlRZ0GH23vYiwxRl7pEHWUE="/>
+            <menu:item id="i_workerspecialty_list" messageCode="global_menu_list" url="/workerspecialtys?page=1&amp;size=${empty param.size ? 10 : param.size}" z="VhWdufRRY1BVL58kyRnDHVxjsBo="/>
+        </menu:category>
+    </menu:menu>
+</div>

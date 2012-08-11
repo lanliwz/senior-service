@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_upuedu_hc_senior_model_WorkerSpecialty" items="${workerspecialtys}" z="YH97/REoKfSJOCwz26tFJlz99Qs=">
+        <table:table data="${workerspecialtys}" id="l_com_upuedu_hc_senior_model_WorkerSpecialty" path="/workerspecialtys" z="RC2f2BpCpaKAVXGIgpLXJ/WhZ2Y=">
+            <table:column id="c_com_upuedu_hc_senior_model_WorkerSpecialty_mentberId" property="mentberId" z="I3YJmFi71Ox0c1Rnl9Y7Dd5MMvY="/>
+            <table:column date="true" dateTimePattern="${workerSpecialty_modifieddate_date_format}" id="c_com_upuedu_hc_senior_model_WorkerSpecialty_modifiedDate" property="modifiedDate" z="+CstFTiZ+4LjfAV3yIgkA6/JL1o="/>
+            <table:column id="c_com_upuedu_hc_senior_model_WorkerSpecialty_specity" property="specity" z="Ef8tjbO/NwnVDFn/7NJcscq6gR4="/>
+        </table:table>
+    </page:list>
+</div>

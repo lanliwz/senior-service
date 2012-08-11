@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_upuedu_hc_senior_model_Task" object="${task}" path="/tasks" z="V3ZWIAUozP/FkhvSZV0ns0/3AeQ=">
+        <field:display field="jobId" id="s_com_upuedu_hc_senior_model_Task_jobId" object="${task}" z="9I2APX99BkDNsx70WvhiuH/3194="/>
+        <field:display field="workerId" id="s_com_upuedu_hc_senior_model_Task_workerId" object="${task}" z="e8eXUFN+vbMvjUQ03bVqk9xeHCI="/>
+        <field:display field="patientId" id="s_com_upuedu_hc_senior_model_Task_patientId" object="${task}" z="FaXZfr/y8DDArJA8KlFlwgS5u7M="/>
+        <field:display field="location" id="s_com_upuedu_hc_senior_model_Task_location" object="${task}" z="lI5DpxdNriAfbrMN8clj0fN1u8o="/>
+        <field:display date="true" dateTimePattern="${task_checkintime_date_format}" field="checkinTime" id="s_com_upuedu_hc_senior_model_Task_checkinTime" object="${task}" z="vDmSETWMHE3CFj8gnDLy3Muelzg="/>
+        <field:display date="true" dateTimePattern="${task_checkouttime_date_format}" field="checkoutTime" id="s_com_upuedu_hc_senior_model_Task_checkoutTime" object="${task}" z="0gKSJtSUXM64YJlnDf6mpblH5f8="/>
+        <field:display field="evidenceMediaLinks" id="s_com_upuedu_hc_senior_model_Task_evidenceMediaLinks" object="${task}" z="SUQPQS5pHs2J/n4wf2i5pGakw60="/>
+        <field:display field="signatureLinks" id="s_com_upuedu_hc_senior_model_Task_signatureLinks" object="${task}" z="4BR6iVgGm6hpZZvvirICOCDBMg4="/>
+        <field:display field="comment" id="s_com_upuedu_hc_senior_model_Task_comment" object="${task}" z="I65J6OwT8w2OHlojzUcC+46Vrkk="/>
+    </page:show>
+</div>

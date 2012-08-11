@@ -1,0 +1,60 @@
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-08-10 10:30:55
+project --topLevelPackage com.upuedu.hc.senior
+jpa setup --database MYSQL --provider HIBERNATE 
+jpa setup --database MYSQL --provider HIBERNATE --hostName localhost:50972 --databaseName hc_srvc_db 
+jpa setup --database MYSQL --provider HIBERNATE --hostName localhost:50972 --databaseName hc_srvc_db --userName root --password ""
+jpa setup --database MYSQL --provider HIBERNATE --hostName localhost
+jpa setup --database MYSQL --provider HIBERNATE --hostName localhost --databaseName hc_srvc_db --userName root --password ""
+jpa setup --database MYSQL --provider HIBERNATE --hostName localhost --databaseName hc_srvc_db --userName root --password ""
+// [failed] database reverse engineer --schema hc_srvc_db --package ~.model --testAutomatically 
+addon search --requiresDescription  "#jdbcdriver,driverclass:com.mysql.jdbc.Driver"
+addon install id 01
+addon search --requiresDescription  "driverclass:com.mysql.jdbc.Driver"
+// [failed] database reverse engineer --schema hc_srvc_db --package ~.model --testAutomatically 
+// [failed] database introspect --schema hc_srvc_db
+// [failed] database introspect --schema no_schema_required
+addon info id --searchResultId 01
+addon install bundle --bundleSymbolicName org.springframework.roo.wrapping.mysql
+osgi start --url file://C:\jdbc_driver\mysql-connector-java-5.1.16.jar
+addon install bundle --bundleSymbolicName org.springframework.roo.wrapping.mysql
+osgi start --url file://C:\springsource\spring-roo-1.2.2.RELEASE\bundle\org.springframework.roo.wrapping.mysql-connector-java-5.1.13.0001.jar
+quit
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2012-08-10 12:00:21
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-08-10 12:00:28
+osgi install --url file://C:\jdbc_driver\org.springframework.roo.wrapping.mysql-connector-java-5.1.13.0001
+osgi install --url file://C:\jdbc_driver\org.springframework.roo.wrapping.mysql-connector-java-5.1.13.0001.jar
+osgi start --url file://C:\jdbc_driver\org.springframework.roo.wrapping.mysql-connector-java-5.1.13.0001.jar
+osgi start --url file:///dbc_driver/org.springframework.roo.wrapping.mysql-connector-java-5.1.13.0001.jar
+osgi start --url file:///jdbc_driver/org.springframework.roo.wrapping.mysql-connector-java-5.1.13.0001.jar
+osgi start --url file:///jdbc_driver/org.springframework.roo.wrapping.mysql-connector-java-5.1.13.0001.jar 
+addon list
+addon search  --requiresCommand database
+addon search  --requiresCommand git
+addon upgrade available 
+pgp list trusted keys
+osgi ps
+// [failed] database reverse engineer --schema hc_srvc_db --package ~.model
+// [failed] database reverse engineer --schema hc_srvc_db --package ~.model
+database reverse engineer --schema hc_srvc_db --package ~.model
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-08-10 13:44:54
+web mvc setup
+quit
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2012-08-10 15:47:10
+web mvc all --package ~.web 
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-08-10 19:51:50
+osgi obr url add --url http://spring-roo-os-commands.googlecode.com/svn/repo/repository.xml
+osgi obr start --bundleSymbolicName net.stsmedia.roo.addon.oscommands
+osgi obr url remove --url http://spring-roo-os-commands.googlecode.com/svn/repo/repository.xml
+addon list
+osgi ps
+osgi obr url add --url http://repository-sillyweasel.forge.cloudbees.com/release/repository.xml
+osgi obr start --bundleSymbolicName org.sillyweasel.addons.jqueryui;1.0.1.RELEASE
+osgi obr url remove --url http://repository-sillyweasel.forge.cloudbees.com/release/repository.xml
+addon install bundle --bundleSymbolicName org.sillyweasel.addons.jqueryui;1.0.1.RELEASE
+osgi ps
+addon upgrade available --addonStabilityLevel RELEASE 
+// [failed] focus --class Jobs
+// [failed] focus --class Job
+focus --class ~.model.Job
+web mvc language --code it 
+web mvc language --code es 

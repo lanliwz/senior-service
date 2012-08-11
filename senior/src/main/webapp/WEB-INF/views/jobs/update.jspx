@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_upuedu_hc_senior_model_Job" modelAttribute="job" path="/jobs" versionField="none" z="RT6qXfq7H85oczi6CYiybW/pTrY=">
+        <field:simple field="tasks" id="c_com_upuedu_hc_senior_model_Job_tasks" messageCode="entity_reference_not_managed" messageCodeAttribute="Task" z="fm2OGApCJXdl+mPC/s/Hwy5jPA4="/>
+        <field:input field="memberId" id="c_com_upuedu_hc_senior_model_Job_memberId" validationMessageCode="field_invalid_integer" z="tavuhY5K8cSg0DGUvJBKnFT17+o="/>
+        <field:input field="jobDescription" id="c_com_upuedu_hc_senior_model_Job_jobDescription" z="2nQZlwEyD4JclXVSKO20Peh/uIU="/>
+        <field:input field="jobQua1ityRating" id="c_com_upuedu_hc_senior_model_Job_jobQua1ityRating" validationMessageCode="field_invalid_number" z="ndIKzUlADtvTlnVotKGcoRGc6Do="/>
+        <field:input field="comment" id="c_com_upuedu_hc_senior_model_Job_comment" z="fS7SuS3ChiaAv6RZ6+KZ9hWN50I="/>
+        <field:input field="ratePerHour" id="c_com_upuedu_hc_senior_model_Job_ratePerHour" validationMessageCode="field_invalid_number" z="xOreklE6VUvPaM3JTFiWn7yhIPY="/>
+        <field:input field="location" id="c_com_upuedu_hc_senior_model_Job_location" z="O1pDhCBO3IFTX7DIKccA2fZXnG0="/>
+        <field:datetime dateTimePattern="${job_starttime_date_format}" field="startTime" id="c_com_upuedu_hc_senior_model_Job_startTime" z="OvRLRMOuLtTDJfUv9u2jVqmYA30="/>
+        <field:datetime dateTimePattern="${job_endtime_date_format}" field="endTime" id="c_com_upuedu_hc_senior_model_Job_endTime" z="RbHAlijxSOxRAWggpTfVPYK5WNE="/>
+        <field:input field="status" id="c_com_upuedu_hc_senior_model_Job_status" z="8p1HoqEsZuGJoqYSojO64UWdyzo="/>
+    </form:update>
+</div>
